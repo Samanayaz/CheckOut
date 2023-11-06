@@ -1,0 +1,98 @@
+@import "_variables.scss";
+
+.parts-confirmation {
+    .order-check {
+        margin: 63px auto 38px;
+         
+        a{
+            color: $blue;
+            font-family: Lato;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 20px;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+  
+    .confirmation {
+        font-family: Lato;
+        .address {
+            padding-bottom: 32px;
+
+            h4 {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                margin-bottom: 0;
+            }
+            p {
+                margin: 0;
+            }
+        }
+
+        .delivery-location {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            font-family: Lato;
+
+            h5 {
+                font-size: 18px;
+                font-weight: 700;
+                
+                .fa-truck {
+                    padding-right: 8px;
+                }
+            }
+            p {
+                margin: 0  0 8px;
+            }
+            .payment-method {
+                p {
+                    margin: 0;
+                }
+            }
+
+            .item-list {
+                .row {
+                    gap: 16px;
+                }
+                .image {
+                    width: 76px;
+                    height: 76px;            
+                }
+                .item {
+                    p {
+                        margin: 0;
+                    }
+                    .row {
+                        p {
+                            color:$charcoal;
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn-shop {
+            padding: 18px 24px;
+            border-radius: 4px;
+            background: $blue;
+            color: $white;
+            margin-top: 4em;
+           }
+           
+    }
+
+    .orders-title {
+        color: $black-cool;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 40px;
+    }
+}
+

@@ -1,0 +1,206 @@
+@import "_variables.scss";
+
+.checkout {
+    padding-top: 100px;
+    .box {
+        border-radius: 10px;
+        border: 1px solid var(--greyscale-grey, #C4CDD5);
+        background: $white;
+        box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.25);
+        margin-bottom: 16px;
+        padding: 50px;
+        position: relative;
+
+        .image {
+            width: 76px;
+            height: 76px;            
+        }
+
+        h3 {
+            color: $black-cool;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 700;
+        }
+   
+        p {
+            color: #474342;
+            font-family: lato;
+            font-size: 16px;
+        }
+
+        h4 {
+            color: $black-cool;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        &.shipping-address,
+        &.payment {
+            p {
+                font-family: Montserrat;
+                font-size: 16px;
+            }
+        }
+
+        &.shipping-address {
+            p {
+                b {
+                    padding-right: 16px;
+                }
+            }
+        }
+
+        .edit {
+            position: absolute;
+            color: $black-cool;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            right: 50px;
+            top: 50px;
+        }
+
+        span {
+            padding-right: 16px;
+        }
+    }
+
+}
+
+.order-summary {
+
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 21px; 
+    color:  $black-cool;
+   
+
+    .sticky {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 96px;
+        box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.25);
+        padding: 24px;
+        border-radius: 16px;
+    }
+    
+    .flex {
+        div {
+        display: flex;
+        justify-content: space-between;
+       }
+    }
+
+    hr {
+        height: 4px;
+        background: $black-cool;
+        opacity: 1;
+    }
+
+    .btn-checkout {
+        border-radius: 4px;
+        background: $yellow;
+        color:  $black-cool;
+        text-align: center; 
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        padding: 14px 24px;
+        width: 100%;
+        margin-bottom: 24px;
+
+        span {
+            padding-right: 8px;
+        }
+    }
+
+    .helpline {
+        margin-bottom: 16px;
+        text-align: center; 
+        a {
+            text-decoration: none;
+            color: $charcoal;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .policy {
+
+       p{
+        text-align: center; 
+        margin: 0;
+       }
+
+       a {
+        color: $black-cool;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+       }
+    }
+}
+
+
+.rights {
+    color: $black-cool;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.edit.box {
+    p {
+        margin: 0;
+    }
+
+    h4 {
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    .edit-options {
+        margin: 24px auto;
+        gap: 10px;
+        
+
+        .eta {
+            border-radius: 4px;
+            border: 1px solid #C4CDD5;
+            width: 30%;
+            padding: 24px 10px;
+
+            p.cost {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 800;
+            }
+
+            .date {
+            font-family: Lato;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 21px; 
+            padding-top: 8px;
+            }
+
+            &.checked {
+                   
+                    border-radius: 4px;
+                    border: 2px solid $blue !important;
+                    background-image: url(//images.rvs.com/partsfinder/checkmark.svg);
+                    background-repeat: no-repeat;
+                    background-position-x: 102%;
+                    border: none;
+
+           }
+    }
+    }
+}

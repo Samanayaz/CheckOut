@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Parts Finder Cart</title>
+    <meta content name="author" />
+    <meta content name="keywords" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="msvalidate.01" content="E3E5CE6858EF0229265A304584C1BF6A" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet" type="text/css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <link href="/sass/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+    <script>
+        window.FontAwesomeConfig = {
+            searchPseudoElements: true,
+        };
+    </script>
+
+    <script type="text/javascript" rel="preconnect" src="https://kit.fontawesome.com/32e2ae48f3.js"></script>
+</head>
+
+<body class="parts-checkout">
+    <section class="checkout container" id="cartItems">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+               <div class="shipping-address box">
+                   <h3><span class="ml-3"><i class="fa-regular fa-location-dot"></i></span>Shipping Address</h3>
+                   <p class="m-0"><b>Jane Doe</b>  28 Diamond St.  Brooklyn, NY 11222,  United States</p>
+                   <p>jane.doe@gmail.com, +1 (212)-333-0000</p>
+               </div>
+               <div class="delivery-option box">
+                   <h3><span><i class="fa-regular fa-truck"></i></span>Delivery Options</h3>
+                   <a class="edit" href="">Edit</a>
+
+                   <div class="ship-date my-4">
+                    <h4>Shipping from Warehouse</h4>
+                    <p class="m-0"><b>Economy* $000.00</b></p>
+                    <p>Estimated <b>March 3 - March 6</b></p>
+ 
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="image">
+                            <img
+                                src="/img/product.png"
+                                class="w-100" alt="Product Name" />
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+
+                   <div class="ship-date my-4">
+                    <h4>Shipping from Domestic</h4>
+                    <p class="m-0"><b>Economy* $000.00</b></p>
+                    <p>Estimated <b>March 3 - March 6</b></p>
+ 
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="image">
+                            <img
+                                src="/img/product.png"
+                                class="w-100" alt="Product Name" />
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+
+               <div class="payment box">
+                <h3><span><i class="fa-regular fa-credit-card"></i></span>Payment</h3>
+                <div class="container my-4 mx-5">
+                    <h4 class="pb-2">Billing Address</h4>
+                    <p class="m-0"><b>Jane Doe</b>  28 Diamond St.  Brooklyn, NY 11222,  United States</p>
+                    <p>jane.doe@gmail.com, +1 (212)-333-4444</p>
+    
+                    <p class="m-0 pt-5">S&I WO # or IDS PO #</p>
+                    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" class="w-75"/>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-12 col-lg-4 order-summary">
+                <div class="sticky">
+                    <h3>Order Summary</h3>
+                    <div class="flex">
+                        <div class="subtotal">
+                            <p>Subtotal</p>
+                            <p>$2,000.00</p>
+                        </div>
+                        <div class="shipping">
+                            <p>Shipping</p>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="tax">
+                            <p>Tax</p>
+                            <p>$200.00</p>
+                        </div>
+                        <hr />
+                        <div class="order-total">
+                            <p>Order Total <span>(1 item):</span></p>
+                            <p>$2,500.00</p>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-checkout" href="#" title="Secure Checkout"><span><i
+                                class="fa-solid fa-lock-keyhole"></i></span>Place Order</a>
+
+                    <div class="helpline">
+                        <p>Need Help? <a href="" title="call">1-800-000-0000</a> </p>
+                    </div>
+
+                    <div class="policy">
+                        <p>This site is protected by reCAPTCHA and the
+                            Google</p>
+                        <p>
+                            <a href="" title="Privacy Policy">Privacy Policy</a> and
+                            <a href="" title="Terms of Service">Terms of Service</a> apply
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="rights py-4 mt-5 text-center">
+        <div class="container">
+            <p>© ABC, Inc. 2023. All Rights Reserved. </p>
+        </div>
+    </div>
+</body>
+
+</html>

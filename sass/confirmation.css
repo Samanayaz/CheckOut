@@ -1,0 +1,74 @@
+.parts-confirmation .order-check {
+  margin: 63px auto 38px;
+}
+.parts-confirmation .order-check a {
+  color: #00669e;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}
+.parts-confirmation .order-check a:hover {
+  text-decoration: underline;
+}
+.parts-confirmation .confirmation {
+  font-family: Lato;
+}
+.parts-confirmation .confirmation .address {
+  padding-bottom: 32px;
+}
+.parts-confirmation .confirmation .address h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.parts-confirmation .confirmation .address p {
+  margin: 0;
+}
+.parts-confirmation .confirmation .delivery-location {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: Lato;
+}
+.parts-confirmation .confirmation .delivery-location h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.parts-confirmation .confirmation .delivery-location h5 .fa-truck {
+  padding-right: 8px;
+}
+.parts-confirmation .confirmation .delivery-location p {
+  margin: 0 0 8px;
+}
+.parts-confirmation .confirmation .delivery-location .payment-method p {
+  margin: 0;
+}
+.parts-confirmation .confirmation .delivery-location .item-list .row {
+  gap: 16px;
+}
+.parts-confirmation .confirmation .delivery-location .item-list .image {
+  width: 76px;
+  height: 76px;
+}
+.parts-confirmation .confirmation .delivery-location .item-list .item p {
+  margin: 0;
+}
+.parts-confirmation .confirmation .delivery-location .item-list .item .row p {
+  color: #656d76;
+}
+.parts-confirmation .confirmation .btn-shop {
+  padding: 18px 24px;
+  border-radius: 4px;
+  background: #00669e;
+  color: #fff;
+  margin-top: 4em;
+}
+.parts-confirmation .orders-title {
+  color: #212b36;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}/*# sourceMappingURL=confirmation.css.map */

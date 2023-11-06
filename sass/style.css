@@ -1,0 +1,159 @@
+.checkout {
+  padding-top: 100px;
+}
+.checkout .box {
+  border-radius: 10px;
+  border: 1px solid var(--greyscale-grey, #C4CDD5);
+  background: #fff;
+  box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 16px;
+  padding: 50px;
+  position: relative;
+}
+.checkout .box .image {
+  width: 76px;
+  height: 76px;
+}
+.checkout .box h3 {
+  color: #212b36;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+}
+.checkout .box p {
+  color: #474342;
+  font-family: lato;
+  font-size: 16px;
+}
+.checkout .box h4 {
+  color: #212b36;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+}
+.checkout .box.shipping-address p, .checkout .box.payment p {
+  font-family: Montserrat;
+  font-size: 16px;
+}
+.checkout .box.shipping-address p b {
+  padding-right: 16px;
+}
+.checkout .box .edit {
+  position: absolute;
+  color: #212b36;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  right: 50px;
+  top: 50px;
+}
+.checkout .box span {
+  padding-right: 16px;
+}
+
+.order-summary {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 21px;
+  color: #212b36;
+}
+.order-summary .sticky { /* Safari */
+  position: sticky;
+  top: 96px;
+  box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.25);
+  padding: 24px;
+  border-radius: 16px;
+}
+.order-summary .flex div {
+  display: flex;
+  justify-content: space-between;
+}
+.order-summary hr {
+  height: 4px;
+  background: #212b36;
+  opacity: 1;
+}
+.order-summary .btn-checkout {
+  border-radius: 4px;
+  background: #f1be48;
+  color: #212b36;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 14px 24px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.order-summary .btn-checkout span {
+  padding-right: 8px;
+}
+.order-summary .helpline {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.order-summary .helpline a {
+  text-decoration: none;
+  color: #656d76;
+}
+.order-summary .helpline a:hover {
+  text-decoration: underline;
+}
+.order-summary .policy p {
+  text-align: center;
+  margin: 0;
+}
+.order-summary .policy a {
+  color: #212b36;
+  text-decoration: underline;
+}
+.order-summary .policy a:hover {
+  text-decoration: none;
+}
+
+.rights {
+  color: #212b36;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.edit.box p {
+  margin: 0;
+}
+.edit.box h4 {
+  padding-bottom: 20px;
+  margin: 0;
+}
+.edit.box .edit-options {
+  margin: 24px auto;
+  gap: 10px;
+}
+.edit.box .edit-options .eta {
+  border-radius: 4px;
+  border: 1px solid #C4CDD5;
+  width: 30%;
+  padding: 24px 10px;
+}
+.edit.box .edit-options .eta p.cost {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 800;
+}
+.edit.box .edit-options .eta .date {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  padding-top: 8px;
+}
+.edit.box .edit-options .eta.checked {
+  border-radius: 4px;
+  border: 2px solid #00669e !important;
+  background-image: url(//images.rvs.com/partsfinder/checkmark.svg);
+  background-repeat: no-repeat;
+  background-position-x: 102%;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
